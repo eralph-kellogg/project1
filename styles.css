@@ -21,18 +21,32 @@ i.fa-cat{
     color: black;
     font-size: 80px;
 }
-img.food1{
-    width: 250px;
-}
+
 .jumbotron {
     /* Background */
     background-attachment: fixed;
     background-image: url(workspace.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-  
-
   }
   p.lead{
       color: black;
+  }
+  img.dog{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+      width: 50%;
+  }
+  img.Food1{
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      width: 75%;
+  }
+  h3.PSA{
+      font-size: 70px;
+      color:red;
+      text-shadow: 1px 1px 1px yellow;
+      text-align: center;
   }
