@@ -20,7 +20,8 @@ h1{
     font-family: 'Permanent Marker', cursive;
 }
 h2{
-    text-shadow: 1px 1px 1px magenta;
+    color: navy;
+    text-shadow: 1px 1px 1px orange;
     font-family: 'Special Elite', cursive;
 }
 h3.PSA{
@@ -47,12 +48,25 @@ p{
     color: black;
 }
 p.lead{
-    color: black;
+    color: white;
+    font-size: 20px;
+    font-family: 'Shadows Into Light', cursive;
 }
 p.text-center{
     padding: 10px 20px 10px 20px;
 }
-
+p.cat{
+    border-style:solid;
+    border-color:yellow;
+    border-width: 2px;
+    padding: 10px 10px 10px 10px;
+}
+div.cat{
+    border-style:solid;
+    border-color:yellow;
+    border-width: 2px;
+    padding: 10px 10px 10px 10px;  
+}
 i.fa-cat{
     color: black;
     font-size: 80px;
@@ -61,17 +75,20 @@ i.fa-cat{
     padding: 20px 20px 20px 20px;
 }
 .jumbotron {
-    /* Background */
-    background-attachment: fixed;
-    background-image: url(workspace.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
+    background-color: brown;
 }
 img.dog{
     display: block;
     margin-left: auto;
     margin-right: auto;
     width: 100%;
+}
+img.cat{
+    max-width: 65%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 img.Food1{
     display: block;
@@ -84,10 +101,16 @@ img.Food1{
   }
 .contact{
     font-family: 'Indie Flower', cursive;
-    font-size: 25px;
+    font-size: 20px;
     text-shadow: 1px 1px 1px limegreen;
 }
 textarea{
     font-family: 'Shadows Into Light', cursive;
     color: gray;
+}
+.center{
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
