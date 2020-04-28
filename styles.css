@@ -1,12 +1,44 @@
+/* Fonts Available 
+font-family: 'Permanent Marker', cursive;
+font-family: 'Lobster', cursive;
+font-family: 'Dancing Script', cursive;
+font-family: 'Indie Flower', cursive;
+font-family: 'Shadows Into Light', cursive;
+font-family: 'Special Elite', cursive;
+*/
+
 body{
     background-color: lightblue;
+    font-family: 'Special Elite', cursive;
 }
 
 h1{ 
     color:black;
     font-size: 80px;
     text-shadow: 1px 1px 1px magenta;
+    padding: 20px 20px 20px 20px;
+    font-family: 'Permanent Marker', cursive;
 }
+h2{
+    text-shadow: 1px 1px 1px magenta;
+    font-family: 'Special Elite', cursive;
+}
+h3.PSA{
+    font-size: 70px;
+    color:red;
+    text-shadow: 1px 1px 1px yellow;
+    text-align: center;
+    border-style: dotted;
+    border-width: 20px;
+    border-color: yellow;
+}
+.secret{
+    color: darkslateblue;
+    padding: 0px 10px 0px 10px;
+    font-family: 'Dancing Script', cursive;
+    font-size: 20px;
+}
+
 header{
     background-color: gray;
 }
@@ -14,39 +46,40 @@ header{
 p{
     color: black;
 }
-h6.secret{
-    color: gray;
+p.lead{
+    color: black;
 }
+p.text-center{
+    padding: 10px 20px 10px 20px;
+}
+
 i.fa-cat{
     color: black;
     font-size: 80px;
 }
-
+.spacing{
+    padding: 20px 20px 20px 20px;
+}
 .jumbotron {
     /* Background */
     background-attachment: fixed;
     background-image: url(workspace.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-  }
-  p.lead{
-      color: black;
-  }
-  img.dog{
+}
+img.dog{
     display: block;
     margin-left: auto;
     margin-right: auto;
-      width: 50%;
+    width: 100%;
+}
+img.Food1{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 75%;
+}
+.container{
+    padding: 20px 20px 20px 20px;
   }
-  img.Food1{
-      display: block;
-      margin-left: auto;
-      margin-right: auto;
-      width: 75%;
-  }
-  h3.PSA{
-      font-size: 70px;
-      color:red;
-      text-shadow: 1px 1px 1px yellow;
-      text-align: center;
-  }
+  
