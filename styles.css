@@ -11,7 +11,6 @@ body{
     background-color: lightblue;
     font-family: 'Special Elite', cursive;
 }
-
 h1{ 
     color:black;
     font-size: 80px;
@@ -39,11 +38,9 @@ h3.PSA{
     font-family: 'Dancing Script', cursive;
     font-size: 20px;
 }
-
 header{
     background-color: gray;
 }
-
 p{
     color: black;
 }
@@ -98,7 +95,7 @@ img.Food1{
 }
 .container{
     padding: 20px 20px 20px 20px;
-  }
+}
 .contact{
     font-family: 'Indie Flower', cursive;
     font-size: 20px;
